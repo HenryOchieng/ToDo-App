@@ -1,0 +1,38 @@
+body {
+    background: burlywood;
+    font-family: 'Oswald', 'Futura', sans-serif
+}
+#wrapper {
+    margin-top: 10 ! important;
+}
+#content {
+    background:purple;
+    padding: 25px;
+}
+h1 {
+    color:greenyellow;
+}
+#content > h2 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 0;
+}
+.t10 {
+    margin-top: 10px;
+}
+.t20 {
+    margin-top: 20px;
+}
+.tasks-completed {
+    text-decoration: line-through;
+    background: rgba(red, green, blue, alpha);
+}
+footer {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+#add-btn {
+    background-color: green;
+    border-color:green;
+}
