@@ -23,14 +23,14 @@ h1 {
 .t20 {
     margin-top: 20px;
 }
-.tasks-completed {
+.task-completed {
     text-decoration: line-through;
     background: rgba(red, green, blue, alpha);
 }
 footer {
     margin-top: 20px;
-    color: white;
-    text-align: center;
+    color: black;
+    
 }
 #add-btn {
     background-color: green;

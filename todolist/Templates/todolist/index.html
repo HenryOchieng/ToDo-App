@@ -58,10 +58,14 @@
                         
                     </div>
                     <ul class="list-group t20">
-                        <li class="list-group-item">Learn something new.</li>
-                        <li class="list-group-item todo-completed">Buy a new item.</li>
-                        <li class="list-group-item">Book a dentist appointment.</li>
-
+                        {% for todolist in task_items %}
+                        {% if task.completed %}
+                        <li class="list-group-item task-completed">{{todolist.text}}</li>
+                        {% else %}
+                        <a href='#'><li class="list-group-item">{{todolist.text}}</li></a>
+                        {% endif %}
+                        {% endfor %}
+                        
                     </ul>
 
                 </div>
@@ -69,7 +73,7 @@
             </div>
             <footer>
                 <div class="row pad">
-                    <div class="col-lg-12-center">
+                    <div class="col-lg-12 text-center">
                         Copyright &copy; Henry Ndaga 2020
 
                     </div>
