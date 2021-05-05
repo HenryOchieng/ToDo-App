@@ -26,7 +26,6 @@ These are the features of this project
 
 ## Setup
 
-```
 1. Git Clone the project with: ```git clone https://github.com/HenryOchieng/ToDo-App.git```.
 
 2. Move to the base directory: ```cd ToDo-App```
