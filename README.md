@@ -11,7 +11,7 @@
 This is a simple django-based application that helps users effectively manage their daily tasks.
 	
 ## Technologies
-Project is created with:
+The project was built using:
 * Python version 3.8.7
 * Django verion 3.1.6
 * Bootstrap version 4
