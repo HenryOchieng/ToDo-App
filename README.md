@@ -1,49 +1,36 @@
-# TODOAPP
-> A simple task management web application
+# ToDoApp
+> A web-based tast management application
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
 * [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [Setup](#setup)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-
+This is a simple django-based application that helps users effectively manage their daily tasks.
+	
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
-
-## Setup
-Describe how to install / setup your local environement / add link to demo version.
-
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+Project is created with:
+* Python version 3.8.7
+* Django verion 3.1.6
+* Bootstrap version 4
+* HTML
+* CSS
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+These are the features of this project
+* User can add task they want to perform
+* User can delete a single task 
+* User can delete entire list of tasks
 
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+## Setup
 
-## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+```
+1. Git Clone the project with: git clone https://github.com/HenryOchieng/ToDo-App.git.
+2. Move to the base directory: cd ToDo-App
+3. Activate enveronment with: env\Scripts\activate on windows, or source env/bin/activate on Mac and Linux.
+4. Install required dependences with: pip install -r requirements.txt.
+5. Make migrations with: python manage.py makemigrations and then python manage.py migrate.
+6. Run app localy with: python manage.py runserver.
 
-## Inspiration
-Add here credits. Project inspired by..., based on...
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
