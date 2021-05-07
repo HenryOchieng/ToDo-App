@@ -1,5 +1,5 @@
 # ToDoApp
-> A web-based tast management application
+> A web-based task management application
 
 ## Table of contents
 * [General info](#general-info)
